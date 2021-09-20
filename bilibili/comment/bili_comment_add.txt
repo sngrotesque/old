@@ -1,0 +1,52 @@
+常规：
+    请求 URL: https://api.bilibili.com/x/v2/reply/add
+    请求方法: POST
+    状态代码: 200 
+    远程地址: 120.92.163.246:443
+    引用站点策略: no-referrer-when-downgrade
+
+响应头：
+    access-control-allow-credentials: true
+    access-control-allow-headers: Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,Access-Control-Allow-Credentials,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Cache-Webcdn,x-bilibili-key-real-ip,x-backend-bili-real-ip
+    access-control-allow-methods: GET,POST
+    access-control-allow-origin: https://www.bilibili.com
+    bili-status-code: 0
+    bili-trace-id: 2cf0a0693160d1b9
+    cache-control: no-cache
+    content-encoding: gzip
+    content-type: application/json; charset=utf-8
+    date: Tue, 22 Jun 2021 10:19:33 GMT
+    expires: Tue, 22 Jun 2021 10:19:32 GMT
+    vary: Origin
+    x-cache-webcdn: BYPASS from ks-sh-webcdn-07
+
+请求头：
+    :authority: api.bilibili.com
+    :method: POST
+    :path: /x/v2/reply/add
+    :scheme: https
+    accept: application/json, text/javascript, */*; q=0.01
+    accept-encoding: gzip, deflate, br
+    accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+    cache-control: no-cache
+    content-length: 104
+    content-type: application/x-www-form-urlencoded; charset=UTF-8
+    cookie: none
+    origin: https://www.bilibili.com
+    pragma: no-cache
+    referer: https://www.bilibili.com/video/BV17b4y1Z7V6
+    sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="91", "Chromium";v="91"
+    sec-ch-ua-mobile: ?0
+    sec-fetch-dest: empty
+    sec-fetch-mode: cors
+    sec-fetch-site: same-site
+    user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54
+
+请求数据：
+    oid: 630857862
+    type: 1
+    message: test
+    plat: 1
+    ordering: heat
+    jsonp: jsonp
+    csrf: 82704d42c9567ce680af65627d7ce6f7

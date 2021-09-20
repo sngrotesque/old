@@ -1,0 +1,53 @@
+常规：
+    请求 URL: https://api.bilibili.com/x/v2/reply/del
+    请求方法: POST
+    状态代码: 200 
+    远程地址: 119.3.44.211:443
+    引用站点策略: no-referrer-when-downgrade
+
+响应头：
+    access-control-allow-credentials: true
+    access-control-allow-headers: Origin,No-Cache,X-Requested-With,If-Modified-Since,Pragma,Last-Modified,Cache-Control,Expires,Content-Type,Access-Control-Allow-Credentials,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Cache-Webcdn
+    access-control-allow-methods: GET,POST
+    access-control-allow-origin: https://www.bilibili.com
+    bili-status-code: 0
+    bili-trace-id: 643a446f1460d1ba
+    bili-trace-id: 643a446f1460d1ba
+    cache-control: no-cache
+    content-length: 32
+    content-type: application/json; charset=utf-8
+    date: Tue, 22 Jun 2021 10:25:22 GMT
+    expires: Tue, 22 Jun 2021 10:25:21 GMT
+    idc: shjd
+    set-cookie: bfe_id=61a513175dc1ae8854a560f6b82b37af; Path=/; Max-Age=600; Expires=Tue, 22-Jun-21 10:35:22 GMT
+    vary: Origin
+    x-cache-webcdn: BYPASS from hw-sh3-webcdn-24
+
+请求头：
+    :authority: api.bilibili.com
+    :method: POST
+    :path: /x/v2/reply/del
+    :scheme: https
+    accept: application/json, text/javascript, */*; q=0.01
+    accept-encoding: gzip, deflate, br
+    accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+    cache-control: no-cache
+    content-length: 86
+    content-type: application/x-www-form-urlencoded; charset=UTF-8
+    cookie: none
+    origin: https://www.bilibili.com
+    pragma: no-cache
+    referer: https://www.bilibili.com/video/BV17b4y1Z7V6
+    sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="91", "Chromium";v="91"
+    sec-ch-ua-mobile: ?0
+    sec-fetch-dest: empty
+    sec-fetch-mode: cors
+    sec-fetch-site: same-site
+    user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.54
+
+请求数据：
+    oid: 630857862
+    type: 1
+    jsonp: jsonp
+    rpid: 4773385713
+    csrf: 82704d42c9567ce680af65627d7ce6f7
